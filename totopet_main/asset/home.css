@@ -1,0 +1,460 @@
+/* ============== HOME ============== */
+.home {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.home__sub {
+    font-family: var(--grand);
+    color: var(--orange);
+    font-size: 1.75rem;
+    text-align: center;
+    margin-top: 2rem;
+    margin-top: 4rem;
+}
+
+.home__title {
+    font-family: var(--fredoka);
+    color: var(--dark-blue);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -.5rem;
+    width: 80%;
+}
+
+.home__title__blue {
+    color: var(--blue);
+}
+
+.home__desc {
+    font-family: var(--poppins);
+    color: var(--gray);
+    text-align: center;
+    font-size: .75rem;
+}
+
+.home__button {
+    font-family: var(--fredoka);
+    background-color: var(--orange);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .25rem;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+}
+
+.home__button i {
+    font-size: 1.75rem;
+}
+
+.home__rating {
+    width: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+}
+
+.home__profiles {
+    display: flex;
+}
+
+.home__profile {
+    background-color: black;
+    overflow: hidden;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    border: 5px solid white;
+}
+
+.home__profilem {
+    margin-left: -1rem;
+}
+
+.home__profile__picture{
+    width: 100%;
+}
+
+.home__5 {
+    font-size: 1.75rem;
+    font-family: var(--poppins);
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.home__line {
+    width: .25rem;
+    height: 2.25rem;
+    background-color: var(--dark-blue);
+}
+
+.home__stars .uis-star {
+    color: #FFBA14;
+    font-size: 1.5rem;
+}
+
+.home__review {
+    font-size: 1rem;
+    font-family: var(--poppins);
+    color: var(--dark-blue);
+    font-weight: 700;
+}
+
+.home__img {
+    width: 150%;
+    margin-left: 36%;
+}
+
+@media only screen and (min-width: 680px) {
+    .home {
+        align-items: start;
+        margin: 3.5rem auto;
+        width: 90%;
+        max-width: 950px;
+        overflow: visible;
+    }
+    .home__title{
+        text-align: start;
+        width: 250px;
+    }
+
+    .home__desc {
+        text-align: start;
+    }
+
+    .home__img {
+        position: absolute;
+        width: 55%;
+        max-width: 700px;
+        top: 0;
+        right:0;
+    }
+    
+    .home__sub {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .home__sub{
+        font-size: 2.25rem;
+        margin-top: 5rem;
+    }
+    .home__title {
+        font-size: 3.25rem;
+        width: 350px;
+    }
+
+    .home__desc {
+        font-size: 1rem;
+    }
+
+    .home__rating {
+        width: 400px;
+    }
+    
+    .home__profile {
+        width: 3.5rem;
+        height: 3.5rem;
+    }
+
+    .home__profilem {
+        margin-left: -1.5rem;
+    }
+
+    .home__5 {
+        font-size: 2.5rem;
+    }
+
+    .home__line {
+        height: 3.5rem;
+    }
+
+    .home__img {
+        width: 65%;
+    }
+}
+
+/* ============== PLUS ============== */
+
+.plus {
+    width: 100%;
+    text-align: center;
+    padding-top: 2rem;
+    margin-top: 2rem;
+    background-color: #f1f1f1;
+}
+
+.plus__title {
+    font-family: var(--fredoka);
+    color: var(--dark-blue);
+    font-size: 2.5rem;
+}
+
+.plus__h1 {
+    font-family: var(--poppins);
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--dark-blue);
+}
+
+.plus__h2 {
+    font-family: var(--poppins);
+    color: var(--dark-blue);
+    font-size: 1rem;
+    margin-top: -1.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+@media only screen and (min-width: 900px) {
+    .plus {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+}
+
+/* ============== PELUANG ============== */
+.peluang{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+    margin-top: 5rem;
+}
+.peluang__title {
+    font-family: var(--fredoka);
+    color: var(--dark-blue);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -.5rem;
+    width: 80%;
+}
+
+.peluang__sub {
+    width: 380px;
+    font-family: var(--poppins);
+    color: var(--gray);
+}
+
+.peluang__con {
+    background-color: var(--yellow);
+    width: 120%;
+    transform: rotate(-4deg);
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.peluang__img {
+    margin-top: -3rem;
+    width: 80%;
+    transform: rotate(4deg);
+    margin-left: 6%;
+}
+
+.peluang__pros {
+    transform: rotate(4deg);
+    margin-left: -6%;
+    
+}
+
+.peluang__icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    border-radius: 50%;
+    background-color: var(--yellow);
+}
+
+.peluang__pro {
+    font-family: var(--fredoka);
+    color: var(--yellow);
+    width: 350px;
+    height: 4rem;
+    background-color: white;
+    border-radius: 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 0.125rem;
+    margin-bottom: 0.75rem;
+}
+
+.peluang__button {
+    font-family: var(--fredoka);
+    background-color: var(--orange);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .25rem;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    margin-left: -1%;
+}
+
+.peluang__bottom {
+    width: 120%;
+    height: 100px;
+    background-color: var(--white);
+    transform: rotate(-4deg);
+    margin-top: -5.25rem;
+}
+
+@media only screen and (min-width: 680px) {
+    .peluang__con {
+        flex-direction: row;
+        justify-content: center;
+        padding: 2rem 0 0;
+        height: 500px;
+    }
+
+    .peluang__img {
+        width: 50%;
+        max-width: 500px;
+        margin-left: -6rem;
+    }
+
+    .peluang__pros {
+        margin-left: 0;
+    }
+
+    .peluang__bottom {
+        width: 120%;
+        height: 100px;
+        background-color: var(--white);
+        transform: rotate(-4deg);
+        margin-top: -5.25rem;
+    }
+}
+
+/* ============== MEREK ============== */
+.merek {
+    margin-top: 1rem;
+    width: 100%;
+
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.merek__border {
+    border: 2px solid black;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 2rem;
+    position: relative;
+    overflow: visible;
+}
+
+.merek__title {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    top: -1rem;
+    background-color: var(--white);
+    padding: 0 1rem;
+    width: 174px;
+    font-family: var(--fredoka);
+}
+
+.merek__all {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.merek__all img {
+    width: 90%;
+    margin: 2rem 0;
+}
+
+@media only screen and (min-width: 680px) {
+    
+    .merek__border {
+        padding: 2rem;
+        width: 80%;
+    }
+    .merek__all {
+        display: grid;
+        grid-template-columns: repeat(3, 0.6fr);
+        gap: 3rem;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    
+    .merek__border {
+        padding: 2rem;
+        width: 80%;
+    }
+    .merek__all {
+        display: grid;
+        grid-template-columns: repeat(4, 0.6fr);
+        gap: 3rem;
+    }
+}
+
+/* ============== INSTAGRAM ============== */
+.insta {
+    margin-top: -3rem;
+    padding-top: 5rem;
+    z-index: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--white);
+}
+
+.insta__title {
+    font-family: var(--fredoka);
+    color: var(--dark-blue);
+    font-size: 2.5rem;
+    text-align: center;
+    margin-top: -.5rem;
+    width: 80%;
+}
+
+.insta__sub {
+    font-family: var(--poppins);
+    color: var(--gray);
+    width: 380px;
+    text-align: center;
+}
+
+.insta__con {
+    width: 80%;
+    margin-top: 4rem;
+}
+
+.insta__card {
+    width: 100%;
+    height: 500px;
+    background-color: gray;
+    margin-bottom: 3rem
+}
+
+@media only screen and (min-width: 680px) {
+    .insta__con {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .insta__card {
+        width: 32%;
+        height: 400px;
+    }
+}

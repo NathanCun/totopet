@@ -1,0 +1,53 @@
+
+    .table {
+  width: 100%;
+  margin-bottom: 1rem;
+  color: black;
+  font-size: 14px;
+}
+
+.table th,
+.table td {
+  padding: 0.75rem;
+  vertical-align: top;
+  border-top: 1px solid #dee2e6;
+}
+
+.table thead th {
+  vertical-align: bottom;
+  border-bottom: 2px solid #dee2e6;
+}
+
+/* Custom CSS styles for Bootstrap button */
+.btn.btn-danger.btn-sm.btn-square {
+  /* Add your custom styles here */
+  /* For example: */
+  background-color: #dc3545;
+  color: #fff;
+  border: 1px solid #dc3545;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+}
+
+/* Hover effect on the button */
+.btn.btn-danger.btn-sm.btn-square:hover {
+  background-color: #c82333;
+  border-color: #c82333;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Active effect on the button */
+.btn.btn-danger.btn-sm.btn-square:active {
+  background-color: #bd2130;
+  border-color: #bd2130;
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Focus effect on the button */
+.btn.btn-danger.btn-sm.btn-square:focus {
+  box-shadow: 0 0 0 0.2rem rgba(225, 83, 97, 0.5);
+  text-decoration: none;
+}

@@ -1,0 +1,158 @@
+.peluang{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    overflow: hidden;
+    padding-bottom: 1.5rem;
+    margin-top: 8rem;
+}
+.peluang__title {
+    font-family: var(--fredoka);
+    color: var(--dark-blue);
+    font-size: 2rem;
+    text-align: center;
+    margin-top: -.5rem;
+    width: 80%;
+}
+
+.peluang__sub {
+    width: 380px;
+    font-family: var(--poppins);
+    color: var(--gray);
+}
+
+.peluang__con {
+    background-color: var(--yellow);
+    width: 120%;
+    transform: rotate(-4deg);
+    overflow: visible;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+    padding-bottom: 2rem;
+    margin-bottom: 3rem;
+}
+
+.peluang__cons {
+    display: flex; 
+    width: 50% ; 
+    min-width: 700px; 
+    align-items: center; 
+    transform: rotate(4deg); 
+    overflow: visible; 
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.peluang__img {
+    margin-top: -3rem;
+    width: 50%;
+    margin-left: 3%;
+}
+
+.peluang__pros {
+    margin-left: 3%;
+}
+
+.peluang__icon {
+    width: 3.75rem;
+    height: 3.75rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    border-radius: 50%;
+    background-color: var(--yellow);
+}
+
+.peluang__desc {
+    transform: rotate(4deg);
+    font-family: var(--poppins);
+    width: 70%;
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: -10%;
+    color: rgb(38, 38, 38);
+}
+
+.peluang__pro {
+    font-family: var(--fredoka);
+    color: var(--yellow);
+    width: 350px;
+    height: 4rem;
+    background-color: white;
+    border-radius: 50px;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    padding-left: 0.125rem;
+    margin-bottom: 0.75rem;
+}
+
+.peluang__button {
+    font-family: var(--fredoka);
+    background-color: var(--orange);
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: .25rem;
+    font-size: 1.5rem;
+    margin-top: 1.25rem;
+    margin-left: -1%;
+}
+
+.peluang__bottom {
+    width: 120%;
+    height: 100px;
+    background-color: var(--white);
+    transform: rotate(-4deg);
+    margin-top: -5.25rem;
+}
+
+@media only screen and (min-width: 680px) {
+    .peluang__con {
+        justify-content: center;
+        padding: 2rem 0 2rem 0;
+        height: auto;
+        margin-left: 10%;
+    }
+    
+    .peluang__desc {
+        width: 50%;
+        text-align: start;
+    }
+
+    .peluang__cons {
+        flex-direction: row;
+    }
+
+    .peluang__cons {
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .peluang__img {
+        width: 50%;
+        max-width: 500px;
+        margin-left: -6rem;
+    }
+
+    .peluang__pros {
+        margin-left: 0;
+    }
+
+    .peluang__bottom {
+        width: 120%;
+        height: 100px;
+        background-color: var(--white);
+        transform: rotate(-4deg);
+        margin-top: -5.25rem;
+    }
+
+    .peluang__title {
+        font-size: 2.5rem;
+    }
+}
